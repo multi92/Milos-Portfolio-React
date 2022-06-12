@@ -15,21 +15,23 @@ export default function Home() {
           <EmailIcon />
           <GithubIcon />
         </div>
-          </div>
-          <div className="skills">
-              <h1>Skills</h1>
-              <ol className="list">
-                  <li className="item">
-                      <h2>Front-end</h2>
-                      <span>HTML5(CANVAS), JAVASCRIPT, PIXI.JS, REACT, CASS, SASS, NPM, BOOTSTRAP, MATERIALUI, YARN, STYLEDCOMPONENTS</span>
-                  </li>
-                  <li className="item">
-                      <h2>Back-end</h2>
-                      <span>NODEJS, MYSQL, PHP, LARAVEL, CAKEPHP</span>
-                  </li>
-                  
-              </ol>
-          </div>
+      </div>
+      <div className="skills">
+        <h1>Skills</h1>
+        <ol className="list">
+          <li className="item">
+            <h2>Front-end</h2>
+            <span>
+              HTML5(CANVAS), JAVASCRIPT, PIXI.JS, REACT, CASS, SASS, NPM,
+              BOOTSTRAP, MATERIALUI, YARN, STYLEDCOMPONENTS
+            </span>
+          </li>
+          <li className="item">
+            <h2>Back-end</h2>
+            <span>NODEJS, MYSQL, PHP, LARAVEL, CAKEPHP</span>
+          </li>
+        </ol>
+      </div>
     </div>
   );
 }
