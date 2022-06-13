@@ -3,6 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import { Icon, IconButton } from "@material-ui/core";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
         <h2>Hi, My name is Milos Mijajlovic</h2>
         <div className="prompt">
           <p>Junior Developer with a passion for learning and creating</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <IconButton onClick={() => window.open("https://www.linkedin.com/in/milos-mijajlovic-58809820b/")}>   <LinkedInIcon /></IconButton>
+          <IconButton onClick={() => window.open("https://www.podinario.rs/")}><EmailIcon /></IconButton>
+          <IconButton onClick={() => window.open("https://github.com/multi92")}><GithubIcon /></IconButton>
+       
         </div>
       </div>
       <div className="skills">
