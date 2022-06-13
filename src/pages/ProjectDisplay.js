@@ -5,21 +5,21 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
-    // acces to id router with useParams function
-    const { id } = useParams();
-    const project = ProjectList[id];
+  // acces to id router with useParams function
+  const { id } = useParams();
+  const project = ProjectList[id];
 
-    return (
-        <div className="project">
-            <h1>{project.name}</h1>
-            <img src={project.image} />
-            <p>
-                <b>Skills:</b>
-                {project.skills}
-            </p>
-            <GitHubIcon />
-        </div>
-    )
+  return (
+    <div className="project">
+      <h1>{project.name}</h1>
+      <img src={project.image} />
+      <p>
+        <b>Skills:</b>
+        {project.skills}
+      </p>
+      <GitHubIcon />
+    </div>
+  );
 }
 
 export default ProjectDisplay;
