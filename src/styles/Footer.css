@@ -16,6 +16,9 @@
     font-size: 70px;
     cursor: pointer;
 }
+.footer p {
+    color: white;
+  }
 
 @media only screen and (max-width: 600px) {
     .foote svg {
