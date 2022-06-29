@@ -24,13 +24,13 @@ export default function Home() {
           <li className="item">
             <h2>Front-end</h2>
             <span>
-              HTML5(CANVAS), JAVASCRIPT, PIXI.JS, REACT, CASS, SASS, NPM,
-              BOOTSTRAP, MATERIALUI, YARN, STYLEDCOMPONENTS
+              Html5(CANVAS), Javascript, Pixi.js, React, Css, Sass, Npm,
+              Bootstrap, MaterialUi, Yarn, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-end</h2>
-            <span>NODEJS, MYSQL, PHP, LARAVEL, CAKEPHP</span>
+            <span>NodeJs, MySql, Php, Laravel, CakePhp</span>
           </li>
         </ol>
       </div>
